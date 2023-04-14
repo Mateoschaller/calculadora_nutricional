@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(7, 7, 7);
+    text-decoration: none
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.maiin{
+    background-image: url("fondo2.png");
+    background-position: center;
+    margin: 0px;
+    padding: 20px;
+    
+}
+.menu{
+    background: var(--amarillo);
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.menu{
+    padding: 0px;
+    list-style: none;
+}
+.lista{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    margin: 0px;
+    padding: 20px;
+}
+.ListaMenu{ 
+    display: flex ;
+    width: 100%;
+    justify-content: center;
+    font-family: consolas;
+}
+.ull{
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.title{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    padding-top: 20px;
+    margin-top: 0px;
+    letter-spacing: 3px;
+}
+.children-title{
+    text-align: center;
+}
+.titlee{
+    display: block;
+    font-size: 40px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    background-color: rgb(59, 186, 20);
+}
+.principal{
+    display: block;
+    justify-content: center;
+    
+}
+.hr{
+    border: 0px solid rgb(0, 0, 0);
+    padding: 30px;
+    width: 100%;
+}
+.title-elements{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.elements-parents{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(19, 88, 19);
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+.elements-children{
+    width: 25%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.elements-children{
+    background: var(--amarillo);
+}
+.elements{
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.img-elements{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width:100%;
+    border-radius: 15px;
+}
+@media (width < 920px ){
+.elements{
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+}
+@media (width < 760px ){
+.elements{
+    margin: 10px;
+    font-size: 16px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+}
+@media (width < 700px ) {
+.elements{
+    margin: 10px;
+    font-size: 10px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+}
+@media (width < 450px){
+.titlee{
+    display: block;
+    font-size: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    background-color: rgb(59, 186, 20);
+}
+.elements{
+    margin: 10px;
+    font-size: 8px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+@media (width < 390px ) {
+.elements{
+    margin: 10px;
+    font-size: 7px;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+}
+}
+:root{
+    --amarillo:rgb(226, 226, 82);
+}
