@@ -151,6 +151,9 @@ table,td,th{
     border-collapse: collapse;
     padding: 5px;
 }
+th{
+    color: rgb(184, 37, 37);
+}
 .button{
     width: 10%;
     background:var(--verde) ;
@@ -207,4 +210,7 @@ table,td,th{
     background:var(--verde) ;
     border-color: var(--verde);
 }
+}
+.contactame{
+    justify-content: end;
 }

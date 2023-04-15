@@ -176,3 +176,6 @@ body{
 :root{
     --amarillo:rgb(226, 226, 82);
 }
+.contactame{
+    justify-content: end;
+}
